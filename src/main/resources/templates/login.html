@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="ISO-8859-1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <!--Link Bootstrap-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="/src/main/resources/static/css/style.css" th:href="@{/resources/css/style.css}"/>
+
+    </head>
+    <body>
+        <div class="login-reg-panel">
+            <div class="login-info-box">
+                <h2>Welcome Back!</h2>
+                
+                <div class="button">
+                    <img th:src="@{/resources/img/button.png}">
+                    <label id="label-register" for="log-reg-show">Login</label>
+                    <input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
+                </div>
+            </div>
+                                
+            <div class="register-info-box">
+                <h2>Don't have an account?</h2>
+                <div class="button">
+                    <img th:src="@{/resources/img/button.png}">
+                    <label id="label-login" for="log-login-show">Register</label>
+                    <input type="radio" name="active-log-panel" id="log-login-show">
+                </div>
+                
+            </div>
+            
+            
+                                
+            <div class="white-panel">
+                <div class="login-show">
+                    <h2>LOGIN</h2>
+                    <form method="post" th:action="@{/login}" class="was-validated"> <!--issue with action,cant perform after login--> 
+
+                       
+                        <label for="email">Email:</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter username" name="user_email" required>
+
+
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter password" name="user_pass" required>
+                        
+                        
+                        <button type="submit">Login</button>
+                        <a href="">Forgot password?</a>
+                    </form>
+                    
+                </div>
+                <div class="register-show">
+                    <h2>REGISTER</h2>
+                    <form  th:action="@{/addUser}" method="post">
+                        <input type="text" placeholder="Enter First Name" name="user_fname" required>
+                        <input type="text" placeholder="Enter Last Name" name="user_lname" required>
+                        <input type="text" placeholder="Enter Email" name="user_email" required>
+                        <input type="password" placeholder="Enter Password" name="user_pass" required>
+                        <input type="text" placeholder="Enter Mobile" name="user_mobile" required>
+                        <input type="text" placeholder="Department" name="department" required>
+                        <input type="text" placeholder="Semester" name="semester" required>
+                        <input type="number" placeholder="University Roll Number" name="rollNumber" required>
+                        <button type="submit">Sign-up</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="/src/main/resources/static/js/script.js" th:src="@{/resources/js/script.js}"></script>
+    </body>
+    
+</html>
+
