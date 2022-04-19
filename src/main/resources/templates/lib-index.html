@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Library|AOR</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css"  href="/src/main/resources/static/css/lib-style.css" th:href="@{/resources/css/lib-style.css}"/>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="js/swfobject.js"></script>
+    </head>
+    <body>
+        <header>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/src/main/resources/templates/home.html" th:href="@{/home}">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Library</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+        </header>
+        <h1>Welcome to Our Digital Library!</h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Core Subjects
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>
+                        <a  href="https://github.com/anzhihe/learning/blob/master/python/book/head%20first%20python.pdf" target="_blank">Head-First-Python</a>
+                      </li>
+
+                      <li>
+                        <a  href="https://drive.google.com/file/d/1AFOI7Tis8DEXyMwWvSr95Tt5HSdDLzel/preview" target="_blank">Let Us C</a>
+                      </li>
+
+                      <li>
+                        <a  href="https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf" target="_blank">Python</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Popular Tech Stack
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <a  href="https://mu.ac.in/wp-content/uploads/2021/01/Cloud-Computing.pdf" target="_blank">Cloud-Computing</a>
+                    </li>
+
+                    <li>
+                      <a  href="https://alex.smola.org/drafts/thebook.pdf" target="_blank">Machine Learning</a>
+                    </li>
+
+                    <li>
+                      <a  href="https://a16z.com/wp-content/uploads/2021/10/The-web3-Readlng-List.pdf" target="_blank">Web3</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Magazines & Stories
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <a  href="http://www.passuneb.com/elibrary/ebooks/Harry%20Potter%20and%20The%20Sorcerer%E2%80%99s%20Stone.pdf" target="_blank">Harry Potter and the Sorcerer’s Stone</a>
+                    </li>
+
+                    <li>
+                      <a  href="http://www.passuneb.com/elibrary/ebooks/Harry%20Potter%20and%20The%20Chamber%20of%20Secrets.pdf" target="_blank">Harry Potter and the Chamber of Secrets</a>
+                    </li>
+
+                    <li>
+                      <a  href="http://www.passuneb.com/elibrary/ebooks/Pride%20Prejudice.pdf" target="_blank">PRIDE AND PREJUDICE</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N9E9YP1HGF"></script>
+        <script type="text/javascript" src="/src/main/resources/static/js/lib.js" th:src="@{/resources/js/lib.js}"></script>
+    </body>
+</html>

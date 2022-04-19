@@ -27,10 +27,10 @@ public class UserController
 		return "home";
 	}*/
 	
-	@RequestMapping("/welcome")
+	@RequestMapping("/home")
 	public String getSignup()
 	{
-		return "welcome";
+		return "home";
 	}
 	
 	@RequestMapping("/login")
@@ -74,18 +74,18 @@ public class UserController
 		if(user_email.equalsIgnoreCase(uname) && user_pass.equalsIgnoreCase(upass)) 
 		{
 			session.setAttribute("user_email",user_email);
-			return "welcome";
+			return "home";
 		}
 		else 
 		{
 			modelMap.put("error", "Invalid Account");
-			return "login";
+			return "redirect:/login";
 		}
 	}
 	else
 	{
 		modelMap.put("error", "Invalid Account");
-		return "login";
+		return "redirect:/login";
 	}
 	
 	}
@@ -96,6 +96,12 @@ public class UserController
 		session.removeAttribute("username");
 		session.invalidate();
 		return "redirect:/login";
+	}
+
+	//library
+	@RequestMapping("/lib-index")
+	public String libIndex() {
+    	return "lib-index";
 	}
 
 	
