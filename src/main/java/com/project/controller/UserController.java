@@ -104,6 +104,12 @@ public class UserController
     	return "lib-index";
 	}
 
+	//about
+	@RequestMapping("/about")
+	public String about() {
+    	return "about";
+	}
+
 	
 	
 	
