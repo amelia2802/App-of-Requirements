@@ -1,0 +1,207 @@
+   
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+body,html{
+                                               
+	height:100vh;
+	min-height:550px;
+	background-image: url(/resources/img/login-back.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+    overflow-y: hidden;
+    cursor: url(https://thedailyprophet.net/wp-content/uploads/2019/12/the-daily-prophet-cursor-wand.png), auto;
+}
+a{
+  text-decoration:none;
+  color:green;
+}
+h2{
+    font-family: 'Harry Potter', sans-serif;
+    color: darkred;
+}
+.login-reg-panel{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+	text-align: center;
+    width:70%;
+	right:0;left:0;
+    margin:auto;
+    height:400px;
+    background-image: url(/resources/img/slider.png);
+    
+    
+}
+.white-panel{
+    background-color: rgba(255,255, 255, 1);
+    height: fit-content;
+    position:absolute;
+    top:-50px;
+    width:50%;
+    right:calc(50% - 50px);
+    transition:.3s ease-in-out;
+    z-index:0;
+    box-shadow: 0 0 15px 9px #00000096;
+    color:#B8B8B8;
+    
+}
+.login-reg-panel input[type="radio"]{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+.login-info-box label{
+    position:absolute;
+    top: 40%;
+    left: 5%;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+.button{
+    position: relative; 
+}
+
+.login-reg-panel img{
+    width: 90%;
+    height: auto;
+}
+
+.login-info-box label:hover{
+    background-color: rgba(128, 0, 0, 0.493);
+}
+
+.login-reg-panel #label-login, 
+.login-reg-panel #label-register{
+    padding:5px 7px;
+    width:150px;
+    display:block;
+    text-align:center;
+    border-radius:10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.login-info-box{
+    width:30%;
+    padding:0 50px;
+    top:20%;
+    left:0;
+    position:absolute;
+    text-align:left;
+}
+.register-info-box{
+    width:30%;
+    padding:0 50px;
+    top:20%;
+    right:0;
+    position:absolute;
+    text-align:left;
+    
+}
+.register-info-box label{
+    position:absolute;
+    top: 40%;
+    left: 5%;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+.register-info-box label:hover{
+    background-color: rgba(128, 0, 0, 0.493);
+}
+.right-log{right:50px !important;}
+
+.login-show, 
+.register-show{
+    z-index: 1;
+    display:none;
+    opacity:0;
+    transition:0.3s ease-in-out;
+    color:#242424;
+    text-align:left;
+    padding:50px;
+}
+.show-log-panel{
+    display:block;
+    opacity:0.9;
+}
+.login-show input[type="text"], .login-show input[type="password"]{
+    width: 100%;
+    display: block;
+    margin:20px 0;
+    padding: 15px;
+    border: 1px solid #b5b5b5;
+    outline: none;
+}
+.login-show input[type="button"] {
+    max-width: 150px;
+    width: 100%;
+    background: #444444;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    float:right;
+}
+.login-show a{
+    display:inline-block;
+    padding:10px 0;
+}
+
+.register-show input[type="text"], .register-show input[type="password"]{
+    width: 100%;
+    display: block;
+    margin:20px 0;
+    border: 1px solid #b5b5b5;
+    outline: none;
+}
+.register-show input[type="button"] {
+    max-width: 150px;
+    width: 100%;
+    background: #444444;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    float:right;
+}
+.credit {
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    color: #3B3B25;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 99;
+}
+
+button{
+    position: relative;
+    height: 40px;
+    width: 90px;
+    float: right;
+    background-color: rgb(110, 3, 3);
+    border-color: chocolate;
+    color: chocolate;
+    font-family: cursive;
+
+}
+
+
+
+ 
+
+
+    
+    
