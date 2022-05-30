@@ -1,4 +1,4 @@
-# App-of-Requirements 
+# SIT NEST: App-of-Requirements 
 
 <p> <img src='https://i.pinimg.com/564x/c6/85/7a/c6857a6e89e75a18c7cd247b0d050115.jpg' width=10% height=10%>
   Have you been waiting forever for your special letter to come? Don't wait anymore!It's time to experience the magic & mystery of Harry Potter like never before!Learn from home while experiencing the essencse of Hogwarts in your own College SIT. So get ready to `swish & flick` your way to a magical journey of your own College.</p>
@@ -6,10 +6,6 @@
             <div id="founder">
                 <h1>The 4 Founders</h1>
                 <div class="container">
-                    <div class="d1"><a href="https://www.linkedin.com/in/diptiman-majumdar-693769194/" target="_blank"><img src="/resources/img/38.png" alt=""></a></div>
-                    <div class="d2"><a href="https://www.linkedin.com/in/arghadip-bagchi-460480176/" target="_blank"><img src="/resources/img/46.png" alt=""></a></div>
-                    <div class="d3"><a href="https://www.linkedin.com/in/arnab-roy-0067221a1/" target="_blank"><img src="/resources/img/47.png" alt=""></a></div>
-                    <div class="d4"><a href="https://www.linkedin.com/in/amelia-dutta-40bb8a17b/" target="_blank"><img src="/resources/img/51.png" alt=""></a></div>
                   </div>
             <div id="faq">
                 <h1>Frequently Asked Questions <img src="https://flyclipart.com/thumb2/harry-potter-harry-potter-potterhead-850861.png" width= 60px height=60px></h1>
