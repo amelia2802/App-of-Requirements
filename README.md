@@ -1,23 +1,26 @@
 # SIT NEST: App-of-Requirements 
 
-<p> <img src='https://i.pinimg.com/564x/c6/85/7a/c6857a6e89e75a18c7cd247b0d050115.jpg' width=10% height=10%>
-  Have you been waiting forever for your special letter to come? Don't wait anymore!It's time to experience the magic & mystery of Harry Potter like never before!Learn from home while experiencing the essencse of Hogwarts in your own College SIT. So get ready to `swish & flick` your way to a magical journey of your own College.</p>
-            </div>
-            <div id="founder">
-                <h1>The 4 Founders</h1>
-                <div class="container">
-                  </div>
-            <div id="faq">
-                <h1>Frequently Asked Questions <img src="https://flyclipart.com/thumb2/harry-potter-harry-potter-potterhead-850861.png" width= 60px height=60px></h1>
-                <h2>What is App of Requirements?</h2>
-                <p>App of Requirements is a non-profit community ogranised by the students of Siliguri Institute of Technology that helps students learn CS/IT subjects,connect and discuss with their peers,seniors or juniors & showcase their extra-curriculum activities.</p>
-                <h2>Who can register here?</h2>
-                <p>All the faculties along with the students of CSE & IT can register in AOR. Unfortunately other departments can't join now.</p>
-                <h2>How can you help me learn ?</h2>
-                <p>You'll learn by reading from the books provided in our digital library. You'll also discuss with your friends or serniors here.</p>
-                <h2>How did App of Requirements get started?</h2>
-                <p>Diptiman Majumder,Arghadeep Bagchi,Arnab Roy & Amelia Dutta developed the AOR in 2022.</p>
-                <h2>Can I contribute in the App of Requirements community?</h2>
-                <p>Yes. AOR is open source , if you want to contribute new ideas or enhance the performance & stability of this platform ypu can do this by our github repo. But making nsfw content or using this platform for un-ethical purpose is strictly prohibitted.</p>
-                <h2>Does AOR have a mobile app?</h2>
-                <p>No.</p>
+<img src='https://i.pinimg.com/564x/c6/85/7a/c6857a6e89e75a18c7cd247b0d050115.jpg' width=10% height=10%>
+  Have you been waiting forever for your special letter to come? Don't wait anymore!It's time to experience the magic & mystery of Harry Potter like never before!Learn from home while experiencing the essencse of Hogwarts in your own College SIT. So get ready to `swish & flick` your way to a magical journey of your own College.
+
+# The 4 Founders
+<p align="inline">
+  <img src='https://user-images.githubusercontent.com/49182604/171004777-3334822b-3484-42f7-ba61-75d3ac0e306e.png' width=20% text="Diptiman Majumder"><figcaption>Diptiman Majumder</figcaption>
+  <img src='https://user-images.githubusercontent.com/49182604/171005673-6311fd3b-20e7-44cb-869a-33e7e6834f96.png' width=20%><figcaption>Arnab Roy</figcaption>
+  <img src='https://user-images.githubusercontent.com/49182604/171006320-d03feb08-f84b-4425-86cf-6ac41933e656.png' width=20%><figcaption>Arghadip Bagchi</figcaption>
+  <img src='https://user-images.githubusercontent.com/49182604/171006494-4798251f-7172-4064-bdc2-e56b04c7ba55.png' width=20%><figcaption>Amelia Dutta</figcaption>
+</p>
+
+# Frequently Asked Questions <img src="https://flyclipart.com/thumb2/harry-potter-harry-potter-potterhead-850861.png" width= 60px height=60px>
+- ## What is App of Requirements?
+  - App of Requirements is a non-profit community ogranised by the students of Siliguri Institute of Technology that helps students learn CS/IT subjects,connect and discuss with their peers,seniors or juniors & showcase their extra-curriculum activities.
+- ## Who can register here?
+  - All the faculties along with the students of CSE & IT can register in AOR. Unfortunately other departments can't join now.
+- ## How can you help me learn ?
+   - You'll learn by reading from the books provided in our digital library. You'll also discuss with your friends or serniors here.
+- ## How did App of Requirements get started?
+   - Diptiman Majumder,Arghadeep Bagchi,Arnab Roy & Amelia Dutta developed the AOR in 2022.
+- ## Can I contribute in the App of Requirements community?
+   - Yes. AOR is open source , if you want to contribute new ideas or enhance the performance & stability of this platform ypu can do this by our github repo. But making nsfw content or using this platform for un-ethical purpose is strictly prohibitted.
+- ## Does AOR have a mobile app?
+   - No.
