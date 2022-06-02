@@ -5,11 +5,19 @@
 
 # The 4 Founders
 <p align="inline">
-  <img src='https://user-images.githubusercontent.com/49182604/171004777-3334822b-3484-42f7-ba61-75d3ac0e306e.png' width=20% text="Diptiman Majumder"><figcaption>Diptiman Majumder</figcaption>
-  <img src='https://user-images.githubusercontent.com/49182604/171005673-6311fd3b-20e7-44cb-869a-33e7e6834f96.png' width=20%><figcaption>Arnab Roy</figcaption>
-  <img src='https://user-images.githubusercontent.com/49182604/171006320-d03feb08-f84b-4425-86cf-6ac41933e656.png' width=20%><figcaption>Arghadip Bagchi</figcaption>
-  <img src='https://user-images.githubusercontent.com/49182604/171006494-4798251f-7172-4064-bdc2-e56b04c7ba55.png' width=20%><figcaption>Amelia Dutta</figcaption>
-</p>
+  <img src='https://user-images.githubusercontent.com/49182604/171004777-3334822b-3484-42f7-ba61-75d3ac0e306e.png' width=20%>
+   <a href="https://www.linkedin.com/in/diptiman-majumdar-693769194/" target="_blank"><img src="https://img.shields.io/badge/diptiman-majumder-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+
+<p align="inline">
+  <img src='https://user-images.githubusercontent.com/49182604/171005673-6311fd3b-20e7-44cb-869a-33e7e6834f96.png' width=20%>
+  <a href="https://www.linkedin.com/in/arnab-roy-0067221a1/" target="_blank"><img src="https://img.shields.io/badge/arnab-roy-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+  
+<p align="inline">
+  <img src='https://user-images.githubusercontent.com/49182604/171006320-d03feb08-f84b-4425-86cf-6ac41933e656.png' width=20%><a href="https://www.linkedin.com/in/arghadip-bagchi-460480176/" target="_blank"><img src="https://img.shields.io/badge/arghadip-bagchi-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+  
+<p align="inline">
+  <img src='https://user-images.githubusercontent.com/49182604/171006494-4798251f-7172-4064-bdc2-e56b04c7ba55.png' width=20%><a href="https://www.linkedin.com/in/amelia-dutta-40bb8a17b/" target="_blank"><img src="https://img.shields.io/badge/amelia-dutta-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+
 
 # Frequently Asked Questions <img src="https://flyclipart.com/thumb2/harry-potter-harry-potter-potterhead-850861.png" width= 60px height=60px>
 - ## What is App of Requirements?
