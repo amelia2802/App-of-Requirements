@@ -15,65 +15,105 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
 <!-- Google fonts-->
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
 <link rel="stylesheet" href="/src/main/resources/static/css/home.css" th:href="@{/resources/css/home.css}"/>
 
 <title> Dashboard|AOR</title>
 </head>
 <body id="page-top">
-    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <div class="card-body">
-                <div class="form-group">
-                  <label for="exampleInputEmail1">First Name:</label>
-                  <span th:text="${user_fname}"></span>
-                  <label for="exampleInputEmail1">Last Name:</label>
-                  <span th:text="${user_lname}"></span>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email:</label>
-                  <span th:text="${user_email}"></span>
-                </div>
-                <div class="form-group">
-                    <label for="example">Roll Number:</label>
-                    <span th:text="${rollNumber}"></span>  
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Department:</label>
-                  <span th:text="${department}"></span>
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Semester:</label>
-                  <span th:text="${semester}"></span>
-                </div>
-            </div>
-            <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-            <li class="sidebar-nav-item"><a href="#">ClassRoom</a></li>
-            <li class="sidebar-nav-item"><a href="/src/main/resources/templates/lib-index.html" th:href="@{lib-index}">Library</a></li>
-            <li class="sidebar-nav-item"><a href="#">Placement Guide</a></li>
-            <li class="sidebar-nav-item"><a href="#">Great Hall</a></li>
-            <li class="sidebar-nav-item"><a href="/src/main/resources/templates/about.html" th:href="@{/about}">History of AOR</a></li>
-        </ul>
-    </nav>
-    
-<!-- Code for inserting map -->
-  <div id="map" >
-      <h2>I Solemnly Swear That I Am Up to No Good</h2>
+  <!--Side nav-->
+  <header>
+    <span onclick="openNav()"><i class="fas fa-bolt"></i></span>
+        <div id="sidebar-wrapper">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="sidebar-nav">
+                <div class="card-body">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">First Name:</label>
+                      <span sec:authentication="name"></span>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Last Name:</label>
+                      <span th:text="${user_lname}"></span>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email:</label>
+                      <span th:text="${user_email}"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="example">Roll Number:</label>
+                        <span th:text="${rollNumber}"></span>  
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Department:</label>
+                      <span th:text="${department}"></span>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Semester:</label>
+                      <span th:text="${semester}"></span>
+                    </div>
+                </div>   
+            </ul>
+          </div>
+          <h1 id="header"><img id="logo" src="/src/main/resources/static/img/logo.png" th:src="@{/resources/img/logo.png}">SIT-NEST</h1>
+    <nav id="navbar">
+      
+      <!--Navigation Menu-->
+        <li class="nav-item"><a href="#page-top">Great Hall|</a></li>
+        <li class="nav-item"><a href="#">ClassRoom|</a></li>
+        <li class="nav-item"><a href="/src/main/resources/templates/lib-index.html" th:href="@{lib-index}">Library|</a></li>
+        <li class="nav-item"><a href="#">Chamber of Placement|</a></li>
+        <li class="nav-item"><a href="/src/main/resources/templates/about.html" th:href="@{/about}">History of AOR|</a></li>
+    </nav>     
+  </header>
+  
+  <div id="menu">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <a href="https://www.sittechno.org/news.php" target="_blank"><img src="/src/main/resources/static/img/news.png" th:src="@{/resources/img/news.png}" alt="paper"></a>
+        <h3 class="text">NEWS & ANNOUNCEMENT</h3>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <a href="https://www.sittechno.org/alumni.php" target="_blank"></a><img src="/src/main/resources/static/img/alum.jpg" th:src="@{/resources/img/alum.jpg}" alt="ALUMNI"></a>
+        <h3 class="text">ALUMNI</h3>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <a href="https://www.sittechno.org/event.php" target="_blank"><img src="/src/main/resources/static/img/eve.gif" th:src="@{/resources/img/eve.gif}" alt="events"></a>
+        <h3 class="text">Events</h3>
+      </div>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+  </div>
+  
 
-  <div class="container">
-    <img src="/resources/img/parchment.jpg" alt="Avatar" class="image">
-    <div class="overlay">
-    <div class="text"><img id="mapCss" src="/resources/img/map.jpg" alt="Avatar" class="image">
+<div id="particles-js">
+    <div id="map" >
+      <!--Code for inserting map-->
+      <h2>I Solemnly Swear That I Am Up to No Good</h2>
+      <div class="container">
+      <img src="/src/main/resources/static/img/parchment.jpg" th:src="@{/resources/img/parchment.jpg}" alt="Avatar" class="image">
+      <div class="overlay">
+      <div class="text"><img id="mapCss" src="/src/main/resources/static/img/map.jpg" th:src="@{/resources/img/map.jpg}" alt="Avatar" class="image"></div>
+      </div>
+      </div>
     </div>
   </div>
-</div>
-
-    </div>
-
-    <script type="text/javascript">
-    //Data Picker Initialization
-    $('.datepicker').datepicker();
-    </script>
-    </body>
+   
+  
+  
+  <script type="text/javascript" src="/src/main/resources/static/js/particles.js" th:src="@{/resources/js/particles.js}"></script>
+  <script type="text/javascript" src="/src/main/resources/static/js/app.js" th:src="@{/resources/js/app.js}"></script>
+  <script type="text/javascript" src="/src/main/resources/static/js/home.js" th:src="@{/resources/js/home.js}"></script>
+  </body>
 </html>
 
