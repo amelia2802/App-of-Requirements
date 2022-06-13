@@ -21,17 +21,17 @@ public class UserController
 	@Autowired
 	UserRepository urepo;
 	
-	/*@RequestMapping("/")
-	public String home()
+	@RequestMapping("/welcomehome")
+	public String welcomehome()
 	{
-		return "home";
-	}*/
+		return "welcomehome";
+	}
 	
-	@RequestMapping("/home")
+	/*@RequestMapping("/home")
 	public String getSignup()
 	{
-		return "home";
-	}
+		return "welcomehome";
+	}*/
 	
 	@RequestMapping("/login")
 	public String getLogin()
@@ -109,7 +109,17 @@ public class UserController
 	public String about() {
     	return "about";
 	}
+	//placement
+	@RequestMapping("/placement")
+	public String placement() {
+    	return "placement";
+	}
 
+	//welcome home
+	//@RequestMapping("/welcomehome")
+	//public String welcomehome() {
+    //	return "welcomehome";
+//	}
 	
 	
 	
