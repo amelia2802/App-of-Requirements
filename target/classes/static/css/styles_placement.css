@@ -11578,7 +11578,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../resources/static/img/bgcol.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(/resources/img/demo03.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11586,8 +11586,8 @@ body {
 }
 .masthead h1, .masthead .h1 {
   font-family: 'Blood Omen', sans-serif;
-  background-color: #3f0d12;
-background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+  background-color: #fff;
+  text-shadow: 2px 2px #F53803;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -11659,7 +11659,7 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(/resources/img/bgfoot.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
