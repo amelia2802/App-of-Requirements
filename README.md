@@ -32,3 +32,8 @@
    - Yes. AOR is open source , if you want to contribute new ideas or enhance the performance & stability of this platform ypu can do this by our github repo. But making nsfw content or using this platform for un-ethical purpose is strictly prohibitted.
 - ## Does AOR have a mobile app?
    - No.
+
+
+# Support Us
+![https://media.giphy.com/media/TDQOtnWgsBx99cNoyH/giphy.gif](https://media3.giphy.com/media/hXMGQqJFlIQMOjpsKC/200w.webp)
+`https://www.buymeacoffee.com/aorsit22p`
