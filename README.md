@@ -3,6 +3,8 @@
 <img src='https://i.pinimg.com/564x/c6/85/7a/c6857a6e89e75a18c7cd247b0d050115.jpg' width=10% height=10%>
   Have you been waiting forever for your special letter to come? Don't wait anymore!It's time to experience the magic & mystery of Harry Potter like never before!Learn from home while experiencing the essencse of Hogwarts in your own College SIT. So get ready to `swish & flick` your way to a magical journey of your own College.
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/amelia2802/SIT_NEST-App-of-Requirements)
+
 # The 4 Founders
 <p align="inline">
   <img src='https://user-images.githubusercontent.com/49182604/171004777-3334822b-3484-42f7-ba61-75d3ac0e306e.png' width=20%>
