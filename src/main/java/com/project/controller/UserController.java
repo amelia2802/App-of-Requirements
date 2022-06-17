@@ -21,12 +21,6 @@ public class UserController
 	@Autowired
 	UserRepository urepo;
 	
-	@RequestMapping("/welcomehome")
-	public String welcomehome()
-	{
-		return "welcomehome";
-	}
-	
 	/*@RequestMapping("/home")
 	public String getSignup()
 	{
@@ -115,11 +109,11 @@ public class UserController
     	return "placement";
 	}
 
-	//welcome home
-	//@RequestMapping("/welcomehome")
-	//public String welcomehome() {
-    //	return "welcomehome";
-//	}
+	@RequestMapping("/welcomehome")
+	public String welcomehome()
+	{
+		return "welcomehome";
+	}
 	
 	
 	
