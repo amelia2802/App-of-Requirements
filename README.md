@@ -20,6 +20,14 @@
 <p align="inline">
   <img src='https://user-images.githubusercontent.com/49182604/171006494-4798251f-7172-4064-bdc2-e56b04c7ba55.png' width=20%><a href="https://www.linkedin.com/in/amelia-dutta-40bb8a17b/" target="_blank"><img src="https://img.shields.io/badge/amelia-dutta-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
 
+# Usage
+- Download JDK and Spring Boot(Maven) in your system.
+- Fork the repository.
+- Clone the git repo in your local system
+- Go to the application.properties file under resources folder.
+  - src>resources>application.properties
+- Change the jdbc url path. Add the myDb folder path of your local machine to store the user data. Unless you can't run the application.
+
 
 # Frequently Asked Questions <img src="https://flyclipart.com/thumb2/harry-potter-harry-potter-potterhead-850861.png" width= 60px height=60px>
 - ## What is App of Requirements?
