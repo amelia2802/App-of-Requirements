@@ -1,7 +1,7 @@
 # SIT NEST: App-of-Requirements 
 
 <img src='https://i.pinimg.com/564x/c6/85/7a/c6857a6e89e75a18c7cd247b0d050115.jpg' width=10% height=10%>
-  Have you been waiting forever for your special letter to come? Don't wait anymore!It's time to experience the magic & mystery of Harry Potter like never before!Learn from home while experiencing the essencse of Hogwarts. So get ready to `swish & flick` your way to a magical learning journey.
+  Have you been waiting forever for your special letter to come? Don't wait anymore! It's time to experience the magic & mystery of Harry Potter like never before! Learn from home while experiencing the essence of Hogwarts. So get ready to `swish & flick` your way to a magical learning journey.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/amelia2802/SIT_NEST-App-of-Requirements)
 
@@ -24,24 +24,23 @@
 - Download JDK and Spring Boot(Maven) in your system.
 - Fork the repository.
 - Clone the git repo in your local system
-- Go to the application.properties file under resources folder.
+- Go to the application.properties file under the resources folder.
   - src>resources>application.properties
-- Change the jdbc url path. Add the myDb folder path of your local machine to store the user data. Unless you can't run the application.
+- Change the JDBC URL path. Add the myDb folder path of your local machine to store the user data. Unless you can't run the application.
 
 
 # Frequently Asked Questions <img src="https://flyclipart.com/thumb2/harry-potter-harry-potter-potterhead-850861.png" width= 60px height=60px>
 - ## What is App of Requirements?
-  - App of Requirements is a non-profit community ogranised by the students of Siliguri Institute of Technology that helps students learn CS/IT subjects,connect and discuss with their peers,seniors or juniors & showcase their extra-curriculum activities.
+  - App of Requirements is a non-profit community organized by the students of Siliguri Institute of Technology that helps students learn CS/IT subjects, connect and discuss with their peers, seniors, or juniors & showcase their extra-curriculum activities.
 - ## Who can register here?
   - All the faculties along with the students can register in AOR.
-- ## How can you help me learn ?
-   - You'll learn by reading from the books provided in our digital library. You'll also discuss with your friends or serniors here.
+- ## How can you help me learn?
+   - You'll learn by reading from the books provided in our digital library. You'll also discuss it with your friends or seniors here.
 - ## How did App of Requirements get started?
-   - Diptiman Majumder,Arghadeep Bagchi,Arnab Roy & Amelia Dutta developed the AOR in 2022.
-- ## Can I contribute in the App of Requirements community?
-   - Yes. AOR is open source , if you want to contribute new ideas or enhance the performance & stability of this platform ypu can do this by our github repo. But making nsfw content or using this platform for un-ethical purpose is strictly prohibitted.
+   - Diptiman Majumder, Arghadeep Bagchi, Arnab Roy & Amelia Dutta developed the AOR in 2022.
+- ## Can I contribute to the App of Requirements community?
+   - Yes. AOR is open source, if you want to contribute new ideas or enhance the performance & stability of this platform you can do this by our Github repo. But making NSFW content or using this platform for unethical purposes is strictly prohibited.
 
 
 # Support Us
-![https://media.giphy.com/media/TDQOtnWgsBx99cNoyH/giphy.gif](https://media3.giphy.com/media/hXMGQqJFlIQMOjpsKC/200w.webp)
-`https://www.buymeacoffee.com/aorsit22p`
+If you like it give it a 🌟
