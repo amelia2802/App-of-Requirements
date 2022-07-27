@@ -31,7 +31,7 @@
 
 # Frequently Asked Questions <img src="https://flyclipart.com/thumb2/harry-potter-harry-potter-potterhead-850861.png" width= 60px height=60px>
 - ## What is App of Requirements?
-  - App of Requirements is a non-profit community organized by the students of Siliguri Institute of Technology that helps students learn CS/IT subjects, connect and discuss with their peers, seniors, or juniors & showcase their extra-curriculum activities.
+  - App of Requirements is a non-profit community that helps students learn CS/IT subjects, connect and discuss with their peers, seniors, or juniors & showcase their extra-curriculum activities.
 - ## Who can register here?
   - All the faculties along with the students can register in AOR.
 - ## How can you help me learn?
