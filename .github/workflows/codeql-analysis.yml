@@ -64,7 +64,6 @@ jobs:
          java UserRepository
          java User
          java UserController
-         java UserRegistration1ApplicationTests
     - if: matrix.language == 'javascript'
       name: Autobuild
       uses: github/codeql-action/autobuild@v2
