@@ -59,12 +59,12 @@ jobs:
     - if: matrix.language == 'java' 
       name: Build Java
       run: |
-         make UserRegistration1ApplicationTests
-         make UserRegistration1Application
-         make UserRepository
-         make User
-         make UserController
-         make UserRegistration1ApplicationTests
+         java UserRegistration1ApplicationTests
+         java UserRegistration1Application
+         java UserRepository
+         java User
+         java UserController
+         java UserRegistration1ApplicationTests
     - if: matrix.language == 'javascript'
       name: Autobuild
       uses: github/codeql-action/autobuild@v2
