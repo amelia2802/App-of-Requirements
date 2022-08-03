@@ -64,6 +64,7 @@ jobs:
          make UserRepository
          make User
          make UserController
+         make UserRegistration1ApplicationTests
     - if: matrix.language == 'javascript'
       name: Autobuild
       uses: github/codeql-action/autobuild@v2
