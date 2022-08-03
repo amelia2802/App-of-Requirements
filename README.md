@@ -1,9 +1,21 @@
-# SIT NEST: App-of-Requirements 
+# App-of-Requirements 
 
 <img src='https://i.pinimg.com/564x/c6/85/7a/c6857a6e89e75a18c7cd247b0d050115.jpg' width=10% height=10%>
   Have you been waiting forever for your special letter to come? Don't wait anymore! It's time to experience the magic & mystery of Harry Potter like never before! Learn from home while experiencing the essence of Hogwarts. So get ready to `swish & flick` your way to a magical learning journey.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/amelia2802/SIT_NEST-App-of-Requirements)
+
+# User guide
+- Download  the latest version of [JDK](https://www.oracle.com/java/technologies/downloads/) on your system.
+- Install & Add [Maven](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html)
+- Install your preffered IDE([VS Code](https://code.visualstudio.com/download),[Eclipse](https://www.eclipse.org/downloads/)) add and spring extension
+- Fork and clone the code
+- go to the src/main/resources/application.propertise
+- change the JDBC path according to your system
+  ``` jdbc:h2:Drive:Folder/App-of-Requirements/src/main/resources/myDb ```
+- Run the **_UserController.java_**  situated in ```/App-of-Requirements/src/main/java/com/project/controller/UserController.java```
+- Open your preferred browser and run **_localhost:8080/welcomehome_**
+- Lets the magic begin!🧙🏻‍♂️
 
 # The 4 Founders
 <p align="inline">
@@ -19,14 +31,6 @@
   
 <p align="inline">
   <img src='https://user-images.githubusercontent.com/49182604/171006494-4798251f-7172-4064-bdc2-e56b04c7ba55.png' width=20%><a href="https://www.linkedin.com/in/amelia-dutta-40bb8a17b/" target="_blank"><img src="https://img.shields.io/badge/amelia-dutta-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
-
-# Usage
-- Download JDK and Spring Boot(Maven) in your system.
-- Fork the repository.
-- Clone the git repo in your local system
-- Go to the application.properties file under the resources folder.
-  - src>resources>application.properties
-- Change the JDBC URL path. Add the myDb folder path of your local machine to store the user data. Unless you can't run the application.
 
 
 # Frequently Asked Questions <img src="https://flyclipart.com/thumb2/harry-potter-harry-potter-potterhead-850861.png" width= 60px height=60px>
