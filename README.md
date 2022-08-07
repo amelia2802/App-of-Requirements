@@ -1,6 +1,6 @@
 # App-of-Requirements 
 
-<img src='https://i.pinimg.com/564x/c6/85/7a/c6857a6e89e75a18c7cd247b0d050115.jpg' width=10% height=10%>
+[<img src='https://i.pinimg.com/564x/c6/85/7a/c6857a6e89e75a18c7cd247b0d050115.jpg' width=10% height=10% />](https://i.pinimg.com/564x/c6/85/7a/c6857a6e89e75a18c7cd247b0d050115.jpg)
   Have you been waiting forever for your special letter to come? Don't wait anymore! It's time to experience the magic & mystery of Harry Potter like never before! Learn from home while experiencing the essence of Hogwarts. So get ready to `swish & flick` your way to a magical learning journey.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/amelia2802/SIT_NEST-App-of-Requirements)
