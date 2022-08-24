@@ -17,17 +17,12 @@
 - Open your preferred browser and run **_localhost:8080/welcomehome_**
 - Lets the magic begin!🧙🏻‍♂️
 
-# Frequently Asked Questions <img src="https://flyclipart.com/thumb2/harry-potter-harry-potter-potterhead-850861.png" width= 60px height=60px>
-- ## What is App of Requirements?
-  - App of Requirements is a non-profit community that helps students learn CS/IT subjects, connect and discuss with their peers, seniors, or juniors & showcase their extra-curriculum activities.
-- ## Who can register here?
-  - All the faculties along with the students can register in AOR.
-- ## How can you help me learn?
-   - You'll learn by reading from the books provided in our digital library. You'll also discuss it with your friends or seniors here.
-- ## How did App of Requirements get started?
-   - Diptiman Majumder, Arghadeep Bagchi, Arnab Roy & Amelia Dutta developed the AOR in 2022.
-- ## Can I contribute to the App of Requirements community?
-   - Yes. AOR is open source, if you want to contribute new ideas or enhance the performance & stability of this platform you can do this by our Github repo. But making NSFW content or using this platform for unethical purposes is strictly prohibited.Read the [Contribution](https://github.com/amelia2802/App-of-Requirements/blob/master/CONTRIBUTING.md) guidelines.
+### Have a doubt? Go to the [FAQs](https://github.com/amelia2802/App-of-Requirements/blob/master/faq.md) & if you can't see your doubt there, then ask in the disscussion forum.
+
+## Contribution 
+
+AOR is open source, if you want to contribute new ideas or enhance the performance & stability of this platform you can do this by our Github repo. But making NSFW content or using this platform for unethical purposes is strictly prohibited.Read the [Contribution](https://github.com/amelia2802/App-of-Requirements/blob/master/CONTRIBUTING.md) guidelines.
+
 
 # The 4 Founders
 <img src='https://user-images.githubusercontent.com/49182604/171004777-3334822b-3484-42f7-ba61-75d3ac0e306e.png' width=20%><a href="https://www.linkedin.com/in/diptiman-majumdar-693769194/" target="_blank"><img src="https://img.shields.io/badge/diptiman-majumder-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a>
