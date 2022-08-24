@@ -1,0 +1,11 @@
+# Frequently Asked Questions <img src="https://flyclipart.com/thumb2/harry-potter-harry-potter-potterhead-850861.png" width= 60px height=60px>
+- ## What is App of Requirements?
+  - App of Requirements is a non-profit community that helps students learn CS/IT subjects, connect and discuss with their peers, seniors, or juniors & showcase their extra-curriculum activities.
+- ## Who can register here?
+  - All the faculties along with the students can register in AOR.
+- ## How can you help me learn?
+   - You'll learn by reading from the books provided in our digital library. You'll also discuss it with your friends or seniors here.
+- ## How did App of Requirements get started?
+   - Diptiman Majumder, Arghadeep Bagchi, Arnab Roy & Amelia Dutta developed the AOR in 2022.
+- ## Can I contribute to the App of Requirements community?
+   - Yes. AOR is open source, if you want to contribute new ideas or enhance the performance & stability of this platform you can do this by our Github repo. But making NSFW content or using this platform for unethical purposes is strictly prohibited.Read the [Contribution](https://github.com/amelia2802/App-of-Requirements/blob/master/CONTRIBUTING.md) guidelines.
