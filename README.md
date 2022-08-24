@@ -12,7 +12,7 @@
 - Install & Add [Maven](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html)
 - Install your preffered IDE([VS Code](https://code.visualstudio.com/download),[Eclipse](https://www.eclipse.org/downloads/)) add and spring extension
 - Fork and clone the code
-- go to the src/main/resources/application.propertise
+- go to the src/main/resources/application.properties
 - change the JDBC path according to your system
   ``` jdbc:h2:Drive:Folder/App-of-Requirements/src/main/resources/myDb ```
 - Run the **_UserController.java_**  situated in ```/App-of-Requirements/src/main/java/com/project/controller/UserController.java```
