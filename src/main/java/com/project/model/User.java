@@ -17,28 +17,22 @@ public class User
 	private String user_email;
 	private String user_pass;
 	private String user_mobile;
-	private String department;
-	private String semester;
-	private String rollNumber;
+	private String major;
+	private String yoe;
 
 
-	public String getRollNumber() {
-		return rollNumber;
+
+	public String getMajor() {
+		return major;
 	}
-	public void setRollNumber(String rollNumber) {
-		this.rollNumber = rollNumber;
+	public void setMajor(String major) {
+		this.major = major;
 	}
-	public String getDepartment() {
-		return department;
+	public String getYoe() {
+		return yoe;
 	}
-	public void setDepartment(String department) {
-		this.department = department;
-	}
-	public String getSemester() {
-		return semester;
-	}
-	public void setSemester(String semester) {
-		this.semester = semester;
+	public void setYoe(String yoe) {
+		this.yoe = yoe;
 	}
 	
 	public Integer getUser_id() {
