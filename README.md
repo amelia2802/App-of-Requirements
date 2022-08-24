@@ -38,7 +38,12 @@
 
 <img src='https://user-images.githubusercontent.com/49182604/171006494-4798251f-7172-4064-bdc2-e56b04c7ba55.png' width=20%><a href="https://www.linkedin.com/in/amelia-dutta-40bb8a17b/" target="_blank"><img src="https://img.shields.io/badge/amelia-dutta-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
+# Dumbledore's Army 🧙🏻‍♂️
 
+Thanks a lot to the members of Dumbledore's Army for spending your time helping AOR to grow . Thanks a lot! 10 points to each of you 😉🍻
+
+[![Contributors](https://contrib.rocks/image?repo=amelia2802/App-of-Requirements)](https://github.com/amelia2802/App-of-Requirements/graphs/contributors)
+ 
 
 # Support Us
 If you like it give it a 🌟
