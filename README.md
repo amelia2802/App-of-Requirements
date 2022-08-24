@@ -5,6 +5,8 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/amelia2802/SIT_NEST-App-of-Requirements)
 
+## Demo
+<img src="https://user-images.githubusercontent.com/49182604/186371073-0065b953-e052-4611-b6a5-284860d873db.png" width="50%" height="40%"> <img src="https://user-images.githubusercontent.com/49182604/186371106-9b8d23e1-d201-4a8e-8128-d45d2ea6d233.png" width="45%" height="40%">                                                                                                                                 
 # User guide
 - Download  the latest version of [JDK](https://www.oracle.com/java/technologies/downloads/) on your system.
 - Install & Add [Maven](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html)
