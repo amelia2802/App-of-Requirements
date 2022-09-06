@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.dockerfile
+
+tasks:
+  - init: mvn package
+    command:  mvn exec:java
