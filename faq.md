@@ -1,8 +1,8 @@
 # Frequently Asked Questions <img src="https://flyclipart.com/thumb2/harry-potter-harry-potter-potterhead-850861.png" width= 60px height=60px>
 - ## What is App of Requirements?
-  - App of Requirements is a non-profit community that helps students learn CS/IT subjects, connect and discuss with their peers, seniors, or juniors & showcase their extra-curriculum activities.
+  - App of Requirements is a non-profit community that helps students learn tech subjects, connect and discuss with their peers, seniors, or juniors & showcase their extra-curriculum activities.
 - ## Who can register here?
-  - All the faculties along with the students can register in AOR.
+  - Anyone, who has an interest in technology can register in AOR.
 - ## How can you help me learn?
    - You'll learn by reading from the books provided in our digital library. You'll also discuss it with your friends or seniors here.
 - ## How did App of Requirements get started?
