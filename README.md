@@ -19,6 +19,11 @@
 - Open your preferred browser and run **_localhost:8080/welcomehome_**
 - Lets the magic begin!🧙🏻‍♂️
 
+<hr>
+Skip those steps & click on 
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/amelia2802/SIT_NEST-App-of-Requirements)
+
 ### Have a doubt? Go to the [FAQs](https://github.com/amelia2802/App-of-Requirements/blob/master/faq.md) & if you can't see your doubt there, then ask in the disscussion forum.
 
 ## Contribution 
