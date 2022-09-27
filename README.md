@@ -16,7 +16,7 @@
 - change the JDBC path according to your system
   ``` jdbc:h2:Drive:Folder/App-of-Requirements/src/main/resources/myDb ```
 - Run the **_UserController.java_**  situated in ```/App-of-Requirements/src/main/java/com/project/controller/UserController.java```
-- Open your preferred browser and run **_localhost:8080/welcomehome_**
+- Open your preferred browser and run **_localhost:8080/login_**
 - Lets the magic begin!🧙🏻‍♂️
 
 <hr>
